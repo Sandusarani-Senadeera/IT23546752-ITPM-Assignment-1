@@ -32,14 +32,13 @@ npx playwright install
 ## Run Tests
 
 ```bash
-npm test
+npm playwright test
 ```
 
 ## View Results
 
 ```bash
-npm run report
-```
+npx playwright test --reporter=html
 
 ## Test Data
 
